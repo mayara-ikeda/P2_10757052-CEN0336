@@ -99,6 +99,6 @@ def main():
                 orf_fna.write(f"{header}_{coords}\n{orf_seq}\n")
                 orf_faa.write(f"{header}_{coords}\n{peptide}\n")
 
-# Executa a função principal apenas se o script for executado diretamente
+# Executa a função principal, evitando sair da main
 if __name__ == "__main__":
     main()
